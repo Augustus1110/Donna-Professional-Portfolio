@@ -1,23 +1,28 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding 2%;
+    padding: 1%;
     align-items: center;
     background-color: #5cd695;
     color: rgb(8, 59, 28);
   }
 
-
-nav ul {
+nav {
     display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-  }
+    justify-content: flex-end;
+}
 
-footer {
+nav a {
+   color: rgb(8, 59, 28);
+   padding: 20px 20px;
+   font-size: x-large;
+   text-decoration: none;
+   
+}
+
+  footer {
     display: flex;
     justify-content: center;
-    padding: 1%;
     background-color: #5cd695;
     color: rgb(8, 59, 28);
 }
