@@ -7,6 +7,12 @@ header {
     color: rgb(8, 59, 28);
   }
 
+
+  /* an option for centering all the the text under these elements*/
+h2, p {
+    text-align: center;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -17,8 +23,16 @@ nav a {
    padding: 20px 20px;
    font-size: x-large;
    text-decoration: none;
-   
 }
+
+/* this styling is not working, must debug
+. card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+    }
+ */  
 
   footer {
     display: flex;
@@ -26,3 +40,4 @@ nav a {
     background-color: #5cd695;
     color: rgb(8, 59, 28);
 }
+
