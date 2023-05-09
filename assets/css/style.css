@@ -34,7 +34,21 @@ nav a {
     }
  */  
 
-  footer {
+figure {
+  border: 8px #088d8d solid;
+  padding: 10px;
+  margin: auto;
+}
+
+figcaption {
+    background-color:rgba(95, 226, 255, 0.701);
+    color: black;
+    font-style: Bold;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
     display: flex;
     justify-content: center;
     background-color: #5cd695;
