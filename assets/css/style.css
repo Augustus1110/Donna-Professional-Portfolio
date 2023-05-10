@@ -9,7 +9,7 @@ header {
 
 
   /* an option for centering all the the text under these elements*/
-h2, p {
+h2, h3, p {
     text-align: center;
 }
 
