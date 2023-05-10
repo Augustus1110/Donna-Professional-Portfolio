@@ -25,15 +25,6 @@ nav a {
    text-decoration: none;
 }
 
-/* this styling is not working, must debug
-. card {
-    width: 80%;
-    margin: 40px auto;
-    border: 5px solid gray;
-    box-shadow: 5px 10px #888888;
-    }
- */  
-
   figure {
   border: 8px #088d8d solid;
   padding: 10px;
