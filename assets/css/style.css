@@ -3,8 +3,8 @@ header {
     justify-content: space-between;
     padding: 1%;
     align-items: center;
-    background-color: #5cd695;
-    color: rgb(8, 59, 28);
+    background-color: #088d8d;
+    color: rgba(7, 7, 63, 0.756);
   }
 
 
@@ -19,7 +19,7 @@ nav {
 }
 
 nav a {
-   color: rgb(8, 59, 28);
+   color: rgba(7, 7, 63, 0.756);
    padding: 20px 20px;
    font-size: x-large;
    text-decoration: none;
@@ -34,16 +34,17 @@ nav a {
     }
  */  
 
-figure {
+  figure {
   border: 8px #088d8d solid;
   padding: 10px;
-  margin: auto;
+  margin: 3%;
 }
 
 figcaption {
     background-color:rgba(95, 226, 255, 0.701);
     color: black;
     font-style: Bold;
+    font-size: 150%;
     padding: 10px;
     text-align: center;
 }
@@ -51,7 +52,7 @@ figcaption {
 footer {
     display: flex;
     justify-content: center;
-    background-color: #5cd695;
-    color: rgb(8, 59, 28);
+    background-color: #088d8d;
+    color: rgba(7, 7, 63, 0.756);
 }
 
