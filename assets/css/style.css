@@ -1,5 +1,6 @@
 body{
-    background: #ecdd898b;
+    background-image: linear-gradient(rgba(44, 88, 176, 0.89), rgba(0, 128, 0, 0.568), rgb(252, 163, 204));
+    /*background: #ecdd898b; */
 }
 
 header {
@@ -29,15 +30,26 @@ nav a {
    text-decoration: none;
 }
 
-  figure {
+figure {
   border: 8px #088d8d solid;
   padding: 10px;
   margin: 3%;
 }
 
+#image-1 {
+    width: 700px;
+    height: 500px;
+}
+
+#image-2, #image-3 {
+    width: 500px;
+    height: 350px;
+}
+
+
 figcaption {
-    background-color: rgba(47, 163, 147, 0.74);
-    color: rgba(204, 2, 204, 0.875);
+    background-color: rgba(0, 100, 194, 0.597);
+    color: rgba(7, 7, 63, 0.756);
     font-style: Bold;
     font-size: 150%;
     padding: 10px;
@@ -50,6 +62,15 @@ footer {
     font-size: larger;
     background-color: #088d8d;
     color: rgba(7, 7, 63, 0.756);
+}
+
+/* johns navbar */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /*media queries should always go toward the bottom so that it goes after the selector I am trying to overwrite
 /*media queries always follow this format: 
