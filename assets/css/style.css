@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgba(44, 88, 176, 0.89), rgba(0, 128, 0, 0.568), rgb(252, 163, 204));
+    background-image: linear-gradient(rgb(252, 163, 204), rgba(0, 128, 0, 0.568), rgba(44, 88, 176, 0.89));
     /*background: #ecdd898b; */
 }
 
@@ -48,7 +48,7 @@ figure {
 
 
 figcaption {
-    background-color: rgba(0, 100, 194, 0.597);
+    background-color: rgba(232, 135, 180, 0.842);
     color: rgba(7, 7, 63, 0.756);
     font-style: Bold;
     font-size: 150%;
