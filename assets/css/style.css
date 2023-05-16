@@ -21,9 +21,15 @@ h2, h3, p {
 }
 
 /*use this class to make changes to my nav bar*/
+/*in case I need padding here, this is how I would add it*/
 
 .navigation {
+    padding: 0px;
 
+}
+
+.navigation a {
+    color: yellowgreen;
 }
 
 
@@ -48,14 +54,14 @@ figure {
 /* I want to apply hover effects to these images with lower opacity*/ 
 
 #image-1 {
-    width: 700px;
-    height: 500px;
+    width: 50%;
+    height: 25%;
     opacity: 0.7;
 }
 
 #image-2, #image-3 {
-    width: 500px;
-    height: 350px;
+    width: 35%;
+    height: 25%;
     opacity: 0.6;
 }
 
@@ -64,10 +70,28 @@ figcaption {
     background-color: rgba(232, 135, 180, 0.658);
     color: rgba(7, 7, 63, 0.756);
     font-style: Bold;
-    font-size: 150%;
+    font-size: 1.5rem;
     padding: 10px;
     text-align: center;
 }
+  
+  .contact-me a {
+    background: rgba(232, 135, 180, 0.658);
+    border: 1px solid rgb(8, 141, 141);
+    border-radius: 3px;
+    color: rgba(7, 7, 63, 0.756);
+    display: inline-flex;
+    padding: 14px;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .contact-me a:hover {
+    background: white;
+    border: 1px solid rgba(7, 7, 63, 0.756);
+    color: rgb(8, 141, 141);
+  }
+
 
 footer {
     display: flex;
@@ -77,14 +101,18 @@ footer {
     color: rgba(7, 7, 63, 0.756);
 }
 
-/* Tutor John's navbar 
+/* Tutor John's navbar
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 */
+
+
+/*MEDIA QUERIES  
 
 /*media queries should always go toward the bottom so that it goes after the selector I am trying to overwrite
 /*media queries always follow this format: 
@@ -95,8 +123,22 @@ footer {
 
 */
 
+
+/*If I have designed my site for desktop sites, I should prob use max-width */
+/* Note that the unit of pixels is used to ensure hard limits on the dimensions of the elements(s).
+
+
+/*
 @media(max-width: 600px) {
-    p{
+    p {
         font-size: 1.25rem;
     }
 }
+*/
+
+@media screen and (max-width: 700px){
+footer{
+    background: red;
+}
+}
+    
