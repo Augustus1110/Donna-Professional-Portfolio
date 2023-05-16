@@ -83,11 +83,10 @@ figcaption {
     display: inline-flex;
     padding: 14px;
     text-decoration: none;
-    margin: 10px;
   }
   
   .contact-me a:hover {
-    background: white;
+    background: lightsteelblue;
     border: 1px solid rgba(7, 7, 63, 0.756);
     color: rgb(8, 141, 141);
   }
