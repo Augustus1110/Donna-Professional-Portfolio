@@ -94,27 +94,10 @@ footer {
     color: rgba(7, 7, 63, 0.756);
 }
 
-/* Tutor John's navbar
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-*/
-
 
 /*MEDIA QUERIES  
 
 /*media queries should always go toward the bottom so that it goes after the selector I am trying to overwrite
-/*media queries always follow this format: 
-
-@media() {
-
-}
-
-*/
 
 
 /*If I have designed my site for desktop sites, I should prob use max-width */
