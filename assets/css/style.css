@@ -8,17 +8,18 @@ body {
   }
 
   header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    flex-direction: column;
     align-items: center;
-    background-color: rgb(8, 141, 141);
-    /* background-color: #333;  -- This is black */
-    color: rgba(7, 7, 63, 0.756);
-  }
+    justify-content: flex-end; /* Align content to the bottom of the header */
+}
 
-  .title{
+  .title {
     margin: 0;
+    margin-bottom: 10px; /* This is the space between the title and the nav bar */
   }
 
 
@@ -36,6 +37,15 @@ h2, h3, p {
 }
 
 /* I want to apply hover effects to these images with lower opacity*/ 
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
 
 #image-1 {
     width: 50%;
