@@ -17,48 +17,22 @@ body {
     color: rgba(7, 7, 63, 0.756);
   }
 
-  .navigation {
-    display: flex;
-    margin-right: 10px;
-    align-items: center;
-    justify-content: space-between;
+  .title{
+    margin: 0;
   }
 
+
+  .navigation a {
+    color: yellowgreen;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: x-large
+}
 
   /* an option for centering all the the text under these elements*/
 h2, h3, p {
     text-align: center;
-}
-
-/*use this class to make changes to my nav bar*/
-/*in case I need padding here, this is how I would add it*/
-
-.navigation {
-    padding: 0px;
-
-}
-
-.navigation a {
-    color: yellowgreen;
-}
-
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav a {
-   color: rgba(7, 7, 63, 0.756);
-   padding: 20px 20px;
-   font-size: x-large;
-   text-decoration: none;
-}
-
-figure {
-  border: 8px rgb(8, 141, 141) solid;
-  padding: 10px;
-  margin: 3%;
 }
 
 /* I want to apply hover effects to these images with lower opacity*/ 
