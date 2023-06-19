@@ -17,6 +17,13 @@ body {
     color: rgba(7, 7, 63, 0.756);
   }
 
+  .navigation {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 
   /* an option for centering all the the text under these elements*/
 h2, h3, p {
