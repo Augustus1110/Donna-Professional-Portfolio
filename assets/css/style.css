@@ -73,12 +73,35 @@ section {
   opacity: 1; /* Changes opacity to 100% on hover */
 }
 
+.container a::before {
+  content: ''; /* Create a pseudo-element */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Adds white background with 80% opacity */
+  opacity: 0; /* Hides initially */
+  transition: opacity 0.3s ease; /* Adds transition effect */
+}
+
+.container a:hover::before {
+  opacity: 1; /* Shows the white background on hover */
+}
 
 .container h3 {
-  margin-top: 10px;
+  position: absolute;
+  top: 50%; /* Positions the text in the middle vertically */
+  left: 50%; /* Positions the text in the middle horizontally */
+  transform: translate(-50%, -50%); /* Center the text */
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add white background with 80% opacity */
+  font-size: 16px;
+  color: #333;
   text-align: center;
 }
-  
+
   .contact-me a {
     background: rgba(232, 135, 180, 0.658);
     border: 1px solid rgb(8, 141, 141);
@@ -89,7 +112,6 @@ section {
     text-decoration: none;
   }
   
-
   .contact-links a {
     margin: 10px;
     text-decoration: none;
@@ -102,7 +124,7 @@ footer {
     padding: 10px;
 }
 
-/* Responsive Layout */
+/* Responsive Layout Code */
 
 @media (max-width: 768px) {
     header {
