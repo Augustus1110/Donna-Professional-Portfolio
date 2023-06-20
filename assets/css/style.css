@@ -82,42 +82,56 @@ section {
     text-decoration: none;
   }
   
-  .contact-me a:hover {
-    background: lightsteelblue;
-    border: 1px solid rgba(7, 7, 63, 0.756);
-    color: rgb(8, 141, 141);
-  }
 
+  .contact-links a {
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+}
 
 footer {
-    display: flex;
-    justify-content: center;
-    font-size: larger;
-    background-color: rgb(8, 141, 141);
-    color: rgba(7, 7, 63, 0.756);
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
 }
 
+/* Responsive Layout */
 
-/*MEDIA QUERIES  
+@media (max-width: 768px) {
+    header {
+        align-items: flex-start;
+    }
 
-/*media queries should always go toward the bottom so that it goes after the selector I am trying to overwrite
+    .title {
+        margin-bottom: 10px;
+    }
 
+    .navigation {
+        margin-top: 10px;
+    }
 
-/*If I have designed my site for desktop sites, I should prob use max-width */
-/* Note that the unit of pixels is used to ensure hard limits on the dimensions of the elements(s).
-
-
-/*
-@media(max-width: 600px) {
-    p {
-        font-size: 1.25rem;
+    .container a {
+        flex: 1 1 100%;
     }
 }
-*/
 
-@media screen and (max-width: 700px){
-footer{
-    background: red;
+@media (max-width: 480px) {
+    main {
+        padding: 10px;
+    }
+
+    .container {
+        gap: 10px;
+    }
+
+    .container a {
+        flex: 1 1 100%;
+    }
 }
-}
-    
+
+
+
+
+
+
+
