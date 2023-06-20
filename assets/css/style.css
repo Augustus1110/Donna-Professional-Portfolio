@@ -1,50 +1,47 @@
 /* background color for entire page. The 3 colors listed are what makes the gradient effect */
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Optima;
-    background-image: linear-gradient(rgb(249, 169, 204), rgba(0, 128, 0, 0.48), rgba(44, 88, 176, 0.70));
-  }
-
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end; /* Aligns content to the bottom of the header */
+  margin: 0;
+  padding: 0;
+  font-family: Optima;
+  background-image: linear-gradient(rgb(249, 169, 204), rgba(0, 128, 0, 0.48), rgba(44, 88, 176, 0.70));
 }
 
-  .title {
-    margin: 0;
-    margin-bottom: 10px; /* This is the space between the title and the nav bar */
-  }
-
-
-  .navigation a {
-    color: yellowgreen;
-    margin-right: 10px;
-    text-decoration: none;
-    padding: 10px 10px;
-    font-size: x-large
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; /* Aligns content to the bottom of the header */
 }
 
-/* centering all the the text under these elements*/
+.title {
+  margin: 0;
+  margin-bottom: 10px; /* This is the space between the title and the nav bar */
+}
 
-h2, 
-h3, 
+.navigation a {
+  color: yellowgreen;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: x-large;
+}
+
+/* centering all the the text under these elements */
+h2,
+h3,
 p {
-    text-align: center;
+  text-align: center;
 }
 
 main {
-    padding: 20px;
+  padding: 20px;
 }
 
 section {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -91,76 +88,68 @@ section {
 
 .container h3 {
   position: absolute;
-  top: 50%; /* Positions the text in the middle vertically */
-  left: 50%; /* Positions the text in the middle horizontally */
-  transform: translate(-50%, -50%); /* Center the text */
+  bottom: 10px; /* Positions the text in the lower-left corner */
+  left: 10px; /* Positions the text in the lower-left corner */
   margin: 0;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.8); /* Add white background with 80% opacity */
   font-size: 16px;
   color: #333;
-  text-align: center;
+  text-align: left; /* Aligns the text to the left */
 }
 
-  .contact-me a {
-    background: rgba(232, 135, 180, 0.658);
-    border: 1px solid rgb(8, 141, 141);
-    border-radius: 3px;
-    color: rgba(7, 7, 63, 0.756);
-    display: inline-flex;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  .contact-links a {
-    margin: 10px;
-    text-decoration: none;
-    color: #333;
+.contact-me a {
+  background: rgba(232, 135, 180, 0.658);
+  border: 1px solid rgb(8, 141, 141);
+  border-radius: 3px;
+  color: rgba(7, 7, 63, 0.756);
+  display: inline-flex;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.contact-links a {
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
 }
 
 footer {
-    background-color: #f2f2f2;
-    text-align: center;
-    padding: 10px;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
 }
 
 /* Responsive Layout Code */
 
 @media (max-width: 768px) {
-    header {
-        align-items: flex-start;
-    }
+  header {
+    align-items: flex-start;
+  }
 
-    .title {
-        margin-bottom: 10px;
-    }
+  .title {
+    margin-bottom: 10px;
+  }
 
-    .navigation {
-        margin-top: 10px;
-    }
+  .navigation {
+    margin-top: 10px;
+  }
 
-    .container a {
-        flex: 1 1 100%;
-    }
+  .container a {
+    flex: 1 1 100%;
+  }
 }
 
 @media (max-width: 480px) {
-    main {
-        padding: 10px;
-    }
+  main {
+    padding: 10px;
+  }
 
-    .container {
-        gap: 10px;
-    }
+  .container {
+    gap: 10px;
+  }
 
-    .container a {
-        flex: 1 1 100%;
-    }
+  .container a {
+    flex: 1 1 100%;
+  }
 }
-
-
-
-
-
-
-
