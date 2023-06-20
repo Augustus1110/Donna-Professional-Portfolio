@@ -51,13 +51,13 @@ section {
   display: flex;
   flex-direction: column; /* Change to vertical layout */
   align-items: center; /* Center the items vertically */
-  gap: 20px;
+  gap: 40px;
   justify-content: center;
 }
 
 .container a {
   position: relative; /* Create a relative positioning context */
-  width: 300px; /* Set a fixed width */
+  width: 800px; /* Set a fixed width */
   text-decoration: none;
   color: #333;
 }
