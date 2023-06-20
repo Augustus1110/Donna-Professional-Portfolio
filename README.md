@@ -2,7 +2,7 @@
 
 This is a professional portfolio created by me, Donahi Casas-Silva ("Donna"), to showcase my coding skills and the projects I have built.
 
-## Table of Contents
+### Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies](#technologies)
@@ -12,10 +12,10 @@ This is a professional portfolio created by me, Donahi Casas-Silva ("Donna"), to
 - [Contact](#contact)
 - [License](#license)
 
-## Introduction
+### Introduction
 As an employer or someone looking to sample a potential employee's previous work, you can use this portfolio to learn more about Donahi Casas-Silva, view her recent photo, and explore sections about her, her work, and how to contact her.
 
-## Features
+### Features
 - Developer's name and recent photo/avatar
 - Links to sections about the developer, her work, and contact information
 - Smooth scrolling to corresponding sections when clicking on navigation links
@@ -24,13 +24,13 @@ As an employer or someone looking to sample a potential employee's previous work
 - Clickable images that direct to the deployed applications
 - Responsive layout that adapts to different screen sizes and devices
 
-## Technologies
+### Technologies
 The portfolio was created using the following technologies:
 - HTML
 - CSS
 - Font Awesome (for icons)
 
-## Installation
+### Installation
 To use this portfolio locally, you can follow these steps:
 1. Clone the repository to your local machine using the following command:
    ```
@@ -66,10 +66,10 @@ This project was developed by Donahi Casas-Silva as part of the UC Berkeley Exte
 - [bard.google.com](https://bard.google.com)
 - [Google.com](https://www.google.com)
 
-## Contact
+### Contact
 If you have any questions or feedback regarding this portfolio, you can reach out to Donahi Casas-Silva through the following channels:
 - LinkedIn: [Donahi Casas-Silva](https://www.linkedin.com/in/meetawesomedonna)
 - GitHub: [Augustus1110](https://github.com/Augustus1110)
 
-## License
+### License
 This project is licensed under the [MIT License](LICENSE).
