@@ -31,11 +31,17 @@ The portfolio was created using the following technologies:
 - Font Awesome (for icons)
 
 ### Installation
+
 To use this portfolio locally, you can follow these steps:
+
 1. Clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/Augustus1110/Donna-Professional-Portfolio.git
    ```
-   ```
+
 2. Open the `index.html` file in your web browser.
+
+Now you can explore the portfolio locally on your machine.
 
 ## Usage
 After opening the portfolio in your web browser, you will be presented with the following sections:
