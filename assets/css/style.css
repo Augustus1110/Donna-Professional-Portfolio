@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end; /* Align content to the bottom of the header */
+    justify-content: flex-end; /* Aligns content to the bottom of the header */
 }
 
   .title {
@@ -31,7 +31,8 @@ body {
     font-size: x-large
 }
 
-  /* an option for centering all the the text under these elements*/
+/* centering all the the text under these elements*/
+
 h2, 
 h3, 
 p {
@@ -65,8 +66,13 @@ section {
   width: 100%;
   height: auto;
   opacity: .65; /* Sets opacity of photos */
-  transition: opacity 0.3s ease;
+  transition: 0.3s ease; /* Adds transition effect */
 }
+
+.container a:hover img {
+  opacity: 1; /* Changes opacity to 100% on hover */
+}
+
 
 .container h3 {
   margin-top: 10px;
