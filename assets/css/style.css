@@ -32,11 +32,11 @@ body {
 }
 
   /* an option for centering all the the text under these elements*/
-h2, h3, p {
+h2, 
+h3, 
+p {
     text-align: center;
 }
-
-/* I want to apply hover effects to these images with lower opacity*/ 
 
 main {
     padding: 20px;
@@ -48,7 +48,8 @@ section {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column; /* Change to vertical layout */
+  align-items: center; /* Center the items vertically */
   gap: 20px;
   justify-content: center;
 }
