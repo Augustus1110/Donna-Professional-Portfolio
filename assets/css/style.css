@@ -36,6 +36,16 @@ p {
   text-align: center;
 }
 
+h2, h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #04246e;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+
 
 main {
   padding: 20px;
@@ -91,7 +101,7 @@ section {
   transition: opacity 0.3s ease; /* Adds transition effect */
 }
 
-/* Creates and styles white boxes inside of photos */
+/* Creates and styles boxes inside of photos */
 .container h3 {
   position: absolute;
   bottom: 10px; /* Positions the text in the lower-left corner */
@@ -100,8 +110,15 @@ section {
   padding: 10px;
   background-color: rgba(59, 166, 212, 0.8); /* Add white background with 80% opacity */
   font-size: 16px;
-  color: white;
+  color: #04246e;
   text-align: left; /* Aligns the text to the left */
+}
+
+.container .primary + h3 {
+  position: absolute;
+  bottom: 10px; /* Positions the text in the lower-left corner */
+  left: -230px; /* Positions the text in the lower-left corner */
+  margin: 0;
 }
 
 .contact-me a {
@@ -114,10 +131,32 @@ section {
   text-decoration: none;
 }
 
+.contact-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .contact-links a {
-  margin: 10px;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: black;
+  margin-right: 10px;
+  font-size: 150%;
+}
+
+.contact-links a i {
+  margin-right: 5px;
+  font-size: 24px; /* Increase the icon size */
+}
+
+.contact-links .linkedin i {
+  color: #0077B5; /* Set the LinkedIn logo color */
+}
+
+.contact-links .github i {
+  color: #333; /* Set the GitHub logo color */
 }
 
 footer {
