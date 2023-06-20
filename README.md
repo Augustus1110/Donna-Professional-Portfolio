@@ -34,7 +34,6 @@ The portfolio was created using the following technologies:
 To use this portfolio locally, you can follow these steps:
 1. Clone the repository to your local machine using the following command:
    ```
-   git clone https://github.com/{YOUR-USERNAME}/{REPO-NAME}.git
    ```
 2. Open the `index.html` file in your web browser.
 
@@ -55,7 +54,11 @@ Clicking on the images will redirect you to the deployed applications.
 ### Contact Me
 The contact section provides links to connect with Donahi Casas-Silva on LinkedIn and GitHub. You can click on the respective icons to visit her profiles.
 
-## Credits
+### Screenshots
+
+![Portfolio Screenshot](./assets/images/portfolio-screenshot.png)
+
+### Credits
 This project was developed by Donahi Casas-Silva as part of the UC Berkeley Extension Coding Bootcamp curriculum. The following resources were utilized during the development process:
 - [w3schools.com](https://www.w3schools.com)
 - [developer.mozilla.org (MDN web docs)](https://developer.mozilla.org)
