@@ -60,6 +60,12 @@ Clicking on the images will redirect you to the deployed applications.
 ### Contact Me
 The contact section provides links to connect with Donahi Casas-Silva on LinkedIn and GitHub. You can click on the respective icons to visit her profiles.
 
+### Live Deployment
+
+You can access the live version of this portfolio at the following URL: [https://augustus1110.github.io/Donna-Professional-Portfolio/](https://augustus1110.github.io/Donna-Professional-Portfolio/)
+
+Feel free to visit the deployed site to explore the portfolio and interact with its contents.
+
 ### Screenshots
 
 ![Portfolio Screenshot](./assets/images/portfolio-screenshot.png)
